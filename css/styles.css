@@ -1,0 +1,56 @@
+body{
+    background-color: orange
+}
+
+.cabecalho{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    height: 133px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px
+}
+/* alterar a cor de um botão quando um usuário passar com o cursor do mouse encima dele */
+a:hover{
+background-color: orange;
+border-radius: 10px;
+text-decoration: underline;
+color: black;
+font-size: 50px;
+cursor: pointer;
+}
+
+.body-h1{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.back-texto{
+    background-color: black;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.texto-futuro{
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 40px;
+
+}
+
+.imagem-geral{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
